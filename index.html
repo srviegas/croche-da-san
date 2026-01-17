@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crochê da San</title>
+  <style>
+    :root{
+      --bege:#f5efe6;
+      --creme:#fffaf3;
+      --rosa:#e8c4c4;
+      --marrom:#7a5c48;
+      --verde:#7b8f7a;
+    }
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+    body{background:var(--creme);color:#333;line-height:1.6}
+    header{background:var(--bege);padding:30px;text-align:center}
+    header h1{color:var(--marrom);font-size:2.5rem}
+    header p{margin-top:10px}
+    nav{margin-top:20px}
+    nav a{margin:0 10px;text-decoration:none;color:var(--marrom);font-weight:600}
+
+    section{padding:60px 10%;}
+    h2{color:var(--marrom);margin-bottom:20px}
+
+    .hero{display:grid;gap:20px;text-align:center}
+    .btn{display:inline-block;margin:10px;padding:12px 20px;background:var(--rosa);color:#000;text-decoration:none;border-radius:25px;font-weight:600}
+
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+    .card{background:white;padding:20px;border-radius:20px;box-shadow:0 5px 15px rgba(0,0,0,.1);text-align:center}
+    .card img{width:100%;border-radius:15px;margin-bottom:10px}
+
+    .depoimento{background:var(--bege);padding:20px;border-radius:15px}
+
+    footer{background:var(--marrom);color:white;padding:30px;text-align:center}
+    footer a{color:#fff;text-decoration:none;margin:0 8px}
+
+    .whatsapp{
+      position:fixed;
+      right:20px;
+      bottom:20px;
+      background:#25d366;
+      color:white;
+      padding:15px 18px;
+      border-radius:50px;
+      text-decoration:none;
+      font-weight:700
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Crochê da San</h1>
+  <p>Peças em crochê feitas à mão com carinho e dedicação</p>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#personalizados">Personalizados</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h2>Feito à mão, ponto por ponto</h2>
+  <p>Peças artesanais únicas para deixar seu ambiente ainda mais aconchegante.</p>
+  <div>
+    <a class="btn" href="#catalogo">Ver Catálogo</a>
+    <a class="btn" href="https://wa.me/5567996348609">Encomendar pelo WhatsApp</a>
+  </div>
+</section>
+
+<section id="sobre">
+  <h2>Sobre a San</h2>
+  <p>O Crochê da San nasceu do amor pelo entrelaço de fios feito à mão. Cada peça é criada com cuidado, atenção aos detalhes e muito carinho, trazendo beleza e aconchego para o dia a dia.</p>
+</section>
+
+<section id="catalogo">
+  <h2>Catálogo</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Tapete">
+      <h3>Tapete em Crochê</h3>
+      <p>R$ 120,00</p>
+      <a class="btn" href="https://wa.me/5567996348609">Pedir no WhatsApp</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Amigurumi">
+      <h3>Cropds</h3>
+      <p>R$ 140,00</p>
+      <a class="btn" href="https://wa.me/5567996348609">Pedir no WhatsApp</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Bolsa">
+      <h3>Bolsa Artesanal</h3>
+      <p>R$ 150,00</p>
+      <a class="btn" href="https://wa.me/5567996348609">Pedir no WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section id="personalizados">
+  <h2>Peças Personalizadas</h2>
+  <p>Escolha cores, tamanhos e detalhes. Produção sob encomenda com prazo combinado.</p>
+  <a class="btn" href="https://wa.me/5567996348609">Fazer Encomenda</a>
+</section>
+
+<section>
+  <h2>Depoimentos</h2>
+  <div class="grid">
+    <div class="depoimento">"San diva!" ⭐⭐⭐⭐⭐</div>
+    <div class="depoimento">"Atendimento ótimo e entrega rápida." ⭐⭐⭐⭐⭐</div>
+    <div class="depoimento">"O que essa bolsa e linda nao ta escrito!." ⭐⭐⭐⭐⭐</div>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <p>Entre em contato pelo WhatsApp ou Instagram para fazer seu pedido.</p>
+</section>
+
+<footer>
+  <p>© 2026 Crochê da San – Todos os direitos reservados</p>
+  <p>
+    <a href="#">Política de Troca</a> |
+    <a href="#">Privacidade</a>
+  </p>
+  <p>Cada ponto feito com amor 🧶</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5567996348609">WhatsApp</a>
+
+</body>
+</html>
